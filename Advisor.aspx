@@ -1,14 +1,11 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Advisor.aspx.cs" MasterPageFile="~/MasterPage.master" Inherits="Advisor" %>
 
-<asp:Content ID ="ContentPlaceHolder1" ContentPlaceHolderID ="ContentPlaceHolder1" runat ="server">
-    
-    
     <asp:Label ID="Label1" runat="server" Text="Label" ForeColor="#CC33FF" Font-Bold="True" BorderStyle="Groove" Font-Size="Larger"></asp:Label>
     <br />
     <asp:Label ID="Label2" runat="server" Text="Label" ForeColor="#CC33FF" BorderStyle="Groove"></asp:Label><br /><asp:Button ID="Button1" runat="server" Text="Information" onclick="Button1_Click" BackColor="#FFFFCC" BorderColor="#6600FF" />
 
  
-   <br />
+
     
 
     <asp:GridView ID="gdImage" runat="server"  onrowdeleting="ReplyMessage" 
